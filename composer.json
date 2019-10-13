@@ -1,0 +1,19 @@
+{
+    "name": "lucas/projects/airline",
+    "description": "Airline project.",
+    "type": "project",
+    "authors": [{
+        "name": "Lucas Madeira",
+        "email": "lucascruz96@outlook.com"
+    }],
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Airline\\": "src",
+            "AirlineMocks\\": "mocks",
+            "AirlineTests\\": "tests"
+        }
+    }
+}
